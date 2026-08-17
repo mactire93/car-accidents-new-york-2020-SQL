@@ -24,7 +24,9 @@ The analysis was performer using the 'vw\_monthly\_accidents' view.
 
 #### Visualisation
 
-!\[Monthly Accidents](images/req1\_monthly\_accidents.png)
+
+
+!\[Monthly Accidents](./images/req1\_monthly\_accidents.png)
 
 
 
@@ -49,7 +51,9 @@ The analysis was performer using the 'vw\_accidents\_by\_day\_hour', 'vw\_accide
 
 #### Visualisation
 
-!\[Monthly Accidents](images/req2\_accidents\_by\_day\_hour.png)
+
+
+!\[Monthly Accidents](./images/req2\_accidents\_by\_day\_hour.png)
 
 
 
@@ -73,7 +77,9 @@ The analysis was performer using the 'vw\_top\_10\_accident\_street' view.
 
 #### Visualisation
 
-!\[Monthly Accidents](images/req3\_accidents\_by\_street.png)
+
+
+!\[Monthly Accidents](./images/req3\_accidents\_by\_street.png)
 
 
 
@@ -101,7 +107,9 @@ The analysis was performer using the 'vw\_contributing\_factors' and 'vw\_fatal\
 
 #### Visualisation
 
-!\[Monthly Accidents](images/req4\_contributing\_factors.png)
+
+
+!\[Monthly Accidents](./images/req4\_contributing\_factors.png)
 
 
 
