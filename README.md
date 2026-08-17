@@ -2,11 +2,11 @@ The original dataset was left unchanged. All transformations were performed on t
 
 
 
-#### Empty fields in the ‘on\_street\_name’ column
+#### Empty fields in the ‘on_street_name’ column
 
 
 
-The on\_street\_name column contained missing values. These were not filled in because it was not possible to reliably determine the street name. The street analysis included only records with a non-empty on\_street\_name value, which helped avoid creating an artificial “Unknown” category.
+The on_street_name column contained missing values. These were not filled in because it was not possible to reliably determine the street name. The street analysis included only records with a non-empty on_street_name value, which helped avoid creating an artificial “Unknown” category.
 
 
 
@@ -18,7 +18,7 @@ The on\_street\_name column contained missing values. These were not filled in b
 
 #### SQL
 
-The analysis was performer using the 'vw\_monthly\_accidents' view.
+The analysis was performer using the 'vw_monthly_accidents' view.
 
 
 
@@ -45,7 +45,7 @@ The analysis was performer using the 'vw\_monthly\_accidents' view.
 
 #### SQL
 
-The analysis was performer using the 'vw\_accidents\_by\_day\_hour', 'vw\_accidents\_by\_day', 'vw\_accidents\_by\_hour\_of\_day' views.
+The analysis was performer using the 'vw_accidents_by_day_hour', 'vw_accidents_by_day', 'vw_accidents_by_hour_of_day' views.
 
 
 
@@ -71,7 +71,7 @@ The analysis was performer using the 'vw\_accidents\_by\_day\_hour', 'vw\_accide
 
 #### SQL
 
-The analysis was performer using the 'vw\_top\_10\_accident\_street' view.
+The analysis was performer using the 'vw_top_10_accident_street' view.
 
 
 
@@ -101,7 +101,7 @@ The analysis was performer using the 'vw\_top\_10\_accident\_street' view.
 
 #### SQL
 
-The analysis was performer using the 'vw\_contributing\_factors' and 'vw\_fatal\_contributing\_fatal\_factors' views.
+The analysis was performer using the 'vw_contributing_factors' and 'vw_fatal_contributing_fatal_factors' views.
 
 
 
@@ -116,4 +116,16 @@ The analysis was performer using the 'vw\_contributing\_factors' and 'vw\_fatal\
 #### Findings
 
 * While Driver Inattention/Distraction was the most common contributing factor across all accidents, fatal accidents were most associated with unsafe speed. This suggest that speeding may play a particularly important role in the most severe collisions.
+
+#### Executive Summary
+
+The dataset 'car_accidents_in_NY_2020' indicates that the number of accidents decline during the spring and increases slightli during the summer.
+
+It should be note that the dataset includes only 8 months (January - August 2020) which make it impossible to analyze seasonality.
+
+The data shows that the largest number of accidents happens on Friday. Looking at the analysis of the days of week, most accidents occur between 2 p.m. and 6 p.m. It should be note that the dataset does not include information on taffic volume or behavioural variables, and therefore the analysis only allows us to identify patterns rather than determine the underlying causes.
+
+The most accidents reported on Belt Parkway, however even the most accident-prone street represents only a small fraction of total acidents, suggesting that collisions are distributed across many locations in New York City.
+
+The dataset shows that the common contributing factor to accidents is Driver Inattention/Distraction but the common cause of fatal accidents is unsafe speed.
 
