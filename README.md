@@ -1,4 +1,4 @@
-The original dataset was left unchanged. All transformations were performed on the `accidents\_clean` table.
+The original dataset was left unchanged. All transformations were performed on the `accidents_clean` table.
 
 
 
@@ -26,7 +26,7 @@ The analysis was performer using the 'vw\_monthly\_accidents' view.
 
 
 
-!\[Monthly Accidents](./images/req1\_monthly\_accidents.png)
+![Monthly Accidents](images/req1_monthly_accidents.png)
 
 
 
@@ -53,7 +53,7 @@ The analysis was performer using the 'vw\_accidents\_by\_day\_hour', 'vw\_accide
 
 
 
-!\[Monthly Accidents](./images/req2\_accidents\_by\_day\_hour.png)
+![Monthly Accidents](images/req2_accidents_by_day_hour.png)
 
 
 
@@ -79,7 +79,7 @@ The analysis was performer using the 'vw\_top\_10\_accident\_street' view.
 
 
 
-!\[Monthly Accidents](./images/req3\_accidents\_by\_street.png)
+![Monthly Accidents](images/req3_accidents_by_street.png)
 
 
 
@@ -109,7 +109,7 @@ The analysis was performer using the 'vw\_contributing\_factors' and 'vw\_fatal\
 
 
 
-!\[Monthly Accidents](./images/req4\_contributing\_factors.png)
+![Monthly Accidents](images/req4_contributing_factors.png)
 
 
 
